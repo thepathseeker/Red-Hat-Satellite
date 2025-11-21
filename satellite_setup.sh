@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# run this script as root
-# before running this script, upgrade the server and reboot if needed
+# run this script as root, bash -x satellite_setup.sh
+# before running this script, configure proper dns, upgrade the server and reboot if needed
 firewall-cmd \
 --add-port="8000/tcp" \
 --add-port="9090/tcp"
